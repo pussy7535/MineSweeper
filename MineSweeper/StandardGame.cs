@@ -9,7 +9,8 @@ namespace MineSweeper
 {
 	public class StandardGame : IGame
 	{
-		public IBlock[] Blocks { get; private set; }
+		public Block[] Blocks { get; private set; }
+		public IRules Rule { get; private set; }
 		public void Generate(GameConfigure gameConfigure)
 		{
 

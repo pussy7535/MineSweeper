@@ -9,7 +9,7 @@ namespace MineSweeper
 {
 	internal class DefaultRule : IRules
 	{
-		public void TriggerAction(IGame game, IBlock block)
+		public void TriggerAction(IGame game, Block block)
 		{
 
 		}
