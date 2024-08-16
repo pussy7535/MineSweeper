@@ -8,5 +8,6 @@ namespace MineSweeper
 {
 	public class MineBlock
 	{
+
 	}
 }
